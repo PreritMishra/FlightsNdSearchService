@@ -6,7 +6,7 @@ const setupAndStartServer= async()=>{
     //create the express object
     const app = express();
     app.listen(PORT,()=>{
-        console.log(`Server started at ${3000}`)
+        console.log(`Server started at ${PORT}`)
     });
 }
 
