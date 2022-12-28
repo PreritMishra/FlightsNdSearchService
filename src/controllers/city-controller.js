@@ -1,4 +1,3 @@
-const { response } = require('express');
 const { CityService } = require('../services/index');
 
 const cityService = new CityService();
